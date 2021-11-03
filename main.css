@@ -1,0 +1,33 @@
+body {
+    background-image: url("hatter.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: larger;
+    width: 100%;
+    margin: auto;
+    color: white;
+}
+.hibauzenet_php {
+    color: red;
+}
+#hibauzenet_js_nev, #hibauzenet_js_anyag, #hibauzenet_js_meretarany, #hibauzenet_js_osszerakasi_ido, #hibauzenet_js_gyartas_ideje {
+    color: yellow;    
+}
+.meret {
+    width: 43%;
+    float: right;
+}
+.kiir {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.kep_hatter {
+    background-image: url("kep.jpg");
+    background-color: transparent;
+}
+@media screen and (max-width: 991px) {
+    #hibauzenet_js_nev, #hibauzenet_js_anyag, #hibauzenet_js_meretarany, #hibauzenet_js_osszerakasi_ido, #hibauzenet_js_gyartas_ideje, .hibauzenet_php {
+        display: block;
+    }
+}
