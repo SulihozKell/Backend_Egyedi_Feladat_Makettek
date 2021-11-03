@@ -65,12 +65,12 @@
                             <div id="hibauzenet_js_osszerakasi_ido"></div>
                         </div>
                         <div class="mb-2">
-                            <label class="pb-1" for="gyartas_ideje">Gyártás Ideje</label><br /><input type="date" name="gyartas_ideje" value="<?php if (!$gomb) echo trim(htmlspecialchars($adatok->getGyartasIdeje()->format("Y-m-d"), ENT_QUOTES)); ?>" id="gyartas_ideje">
+                            <label class="pb-1" for="gyartas_ideje">Gyártás ideje</label><br /><input type="date" name="gyartas_ideje" value="<?php if (!$gomb) echo trim(htmlspecialchars($adatok->getGyartasIdeje()->format("Y-m-d"), ENT_QUOTES)); ?>" id="gyartas_ideje">
                             <div class="hibauzenet_php"><?php if (isset($gyartas_ideje_Hiba)) echo $gyartas_ideje_HibaUzenet; ?></div>
                             <div id="hibauzenet_js_gyartas_ideje"></div>
                         </div>
                         <div class="mb-1" style="width: 250px;">
-                            <input type="submit" class="btn btn-success btn-lg mb-2 w-100" value="Változtatás" name="gomb">
+                            <input type="submit" class="btn btn-success btn-lg mb-2 w-100" value="Módosítás" name="gomb">
                         </div>
                     <?php } ?>
                 </form>
